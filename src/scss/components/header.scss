@@ -1,0 +1,41 @@
+.header {
+    background-color: rgb(90, 0, 0, 0.5);
+    display: flex;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.header__logo {
+    font-family: 'Orelega One', cursive;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    line-height: .6;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+.nav__item {
+    list-style-type: none;
+    padding-top: 12px;
+}
+
+
+.nav__filter-btn {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+
+.nav__filter-btn:hover {
+    color: rgba(255, 160, 71);
+}
