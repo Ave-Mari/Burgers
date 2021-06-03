@@ -5,8 +5,8 @@ require('hot-module-replacement')({
 });
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const devMode = true;
 
-const isProd = (process.env.NODE_ENV === 'production');
 
 
 module.exports = {
@@ -25,11 +25,10 @@ module.exports = {
 		  },
           {
 			test: /\.(s*)css$/,
-			use: [				
-				isProd
-            ? MiniCssExtractPlugin.loader
-            : 
-				'style-loader', 'css-loader', 
+			include: /src/,
+			use: [
+			MiniCssExtractPlugin.loader,
+			'css-loader', 
 				'postcss-loader', 
 				'sass-loader'
 				
@@ -37,7 +36,19 @@ module.exports = {
 		},
 		{
             test: /\.(gif|png|jpe?g)$/i,			
-			type: 'asset/resource',
+			use: [
+				{
+				  loader: 'file-loader',
+				  options: {
+					name: '[name].[ext]',
+					outputPath: 'images/',
+					publicPath: '/'
+				  }
+				},
+				{
+					loader: 'url-loader'
+				}
+			  ]			
             },
 		]},
 		
@@ -47,7 +58,7 @@ module.exports = {
 				template: "./index.html"
 			  }),
               new MiniCssExtractPlugin({
-				filename: '[name].css'
+				filename: devMode ? '[name].css' : '[name].[hash].css'
 			})
 		],
 
