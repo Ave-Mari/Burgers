@@ -3306,7 +3306,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _js_products_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/products.js */ \"./src/js/products.js\");\n/* harmony import */ var _js_products_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_products_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _js_header_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/header.js */ \"./src/js/header.js\");\n/* harmony import */ var _js_header_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_header_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scss_components_images_bg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/components/images/bg.jpg */ \"./src/scss/components/images/bg.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n\n\n//# sourceURL=webpack://burgers/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _js_products_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/products.js */ \"./src/js/products.js\");\n/* harmony import */ var _js_products_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_products_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _js_header_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/header.js */ \"./src/js/header.js\");\n/* harmony import */ var _js_header_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_header_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _scss_components_images_bg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/components/images/bg.jpg */ \"./src/scss/components/images/bg.jpg\");\n/* harmony import */ var _scss_components_images_bluecheese_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scss/components/images/bluecheese.jpg */ \"./src/scss/components/images/bluecheese.jpg\");\n/* harmony import */ var _scss_components_images_cheeseburger_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scss/components/images/cheeseburger.jpg */ \"./src/scss/components/images/cheeseburger.jpg\");\n/* harmony import */ var _scss_components_images_dorki_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scss/components/images/dorki.jpg */ \"./src/scss/components/images/dorki.jpg\");\n/* harmony import */ var _scss_components_images_doublecheese_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./scss/components/images/doublecheese.jpg */ \"./src/scss/components/images/doublecheese.jpg\");\n/* harmony import */ var _scss_components_images_hamburger_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scss/components/images/hamburger.jpg */ \"./src/scss/components/images/hamburger.jpg\");\n/* harmony import */ var _scss_components_images_cheesejunior_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./scss/components/images/cheesejunior.jpg */ \"./src/scss/components/images/cheesejunior.jpg\");\n/* harmony import */ var _scss_components_images_hamburgerjunior_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scss/components/images/hamburgerjunior.jpg */ \"./src/scss/components/images/hamburgerjunior.jpg\");\n/* harmony import */ var _scss_components_images_chips_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./scss/components/images/chips.jpg */ \"./src/scss/components/images/chips.jpg\");\n/* harmony import */ var _scss_components_images_chips2_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./scss/components/images/chips2.jpg */ \"./src/scss/components/images/chips2.jpg\");\n/* harmony import */ var _scss_components_images_cola2_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./scss/components/images/cola2.jpg */ \"./src/scss/components/images/cola2.jpg\");\n/* harmony import */ var _scss_components_images_cola_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./scss/components/images/cola.jpg */ \"./src/scss/components/images/cola.jpg\");\n/* harmony import */ var _scss_components_images_fanta_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./scss/components/images/fanta.jpg */ \"./src/scss/components/images/fanta.jpg\");\n/* harmony import */ var _scss_components_images_sprite_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./scss/components/images/sprite.jpg */ \"./src/scss/components/images/sprite.jpg\");\n/* harmony import */ var _scss_components_images_redbull_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./scss/components/images/redbull.jpg */ \"./src/scss/components/images/redbull.jpg\");\n/* harmony import */ var _scss_components_images_juice1_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./scss/components/images/juice1.jpg */ \"./src/scss/components/images/juice1.jpg\");\n/* harmony import */ var _scss_components_images_juice2_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./scss/components/images/juice2.jpg */ \"./src/scss/components/images/juice2.jpg\");\n/* harmony import */ var _scss_components_images_juice3_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./scss/components/images/juice3.jpg */ \"./src/scss/components/images/juice3.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n\n\n//# sourceURL=webpack://burgers/./src/index.js?");
 
 /***/ }),
 
@@ -3318,6 +3318,193 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"e0e67111164d4d0c83f6.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/bg.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/bluecheese.jpg":
+/*!***************************************************!*\
+  !*** ./src/scss/components/images/bluecheese.jpg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"987c09b18faef7d040d7.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/bluecheese.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/cheeseburger.jpg":
+/*!*****************************************************!*\
+  !*** ./src/scss/components/images/cheeseburger.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"96d23ac3fa32b032e3b7.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/cheeseburger.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/cheesejunior.jpg":
+/*!*****************************************************!*\
+  !*** ./src/scss/components/images/cheesejunior.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b53124790a0733450bdf.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/cheesejunior.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/chips.jpg":
+/*!**********************************************!*\
+  !*** ./src/scss/components/images/chips.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"c48e75bac63d87a4dae6.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/chips.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/chips2.jpg":
+/*!***********************************************!*\
+  !*** ./src/scss/components/images/chips2.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"5ad026e2705a30bbfa6f.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/chips2.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/cola.jpg":
+/*!*********************************************!*\
+  !*** ./src/scss/components/images/cola.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ded27fdbddb7d6cb5817.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/cola.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/cola2.jpg":
+/*!**********************************************!*\
+  !*** ./src/scss/components/images/cola2.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"6f7538c71031fab53bfc.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/cola2.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/dorki.jpg":
+/*!**********************************************!*\
+  !*** ./src/scss/components/images/dorki.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"38baeaf915e46ecd922c.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/dorki.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/doublecheese.jpg":
+/*!*****************************************************!*\
+  !*** ./src/scss/components/images/doublecheese.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"80f67253c00d627f813b.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/doublecheese.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/fanta.jpg":
+/*!**********************************************!*\
+  !*** ./src/scss/components/images/fanta.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"9d680f636804b1eb81a3.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/fanta.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/hamburger.jpg":
+/*!**************************************************!*\
+  !*** ./src/scss/components/images/hamburger.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"4eea00c21ecf604f1759.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/hamburger.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/hamburgerjunior.jpg":
+/*!********************************************************!*\
+  !*** ./src/scss/components/images/hamburgerjunior.jpg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"e4a85a00f236ebf11e84.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/hamburgerjunior.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/juice1.jpg":
+/*!***********************************************!*\
+  !*** ./src/scss/components/images/juice1.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"15a247609e9afd1d2c08.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/juice1.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/juice2.jpg":
+/*!***********************************************!*\
+  !*** ./src/scss/components/images/juice2.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"873bb297e4cfd0c90b49.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/juice2.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/juice3.jpg":
+/*!***********************************************!*\
+  !*** ./src/scss/components/images/juice3.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"996480812c1702bffeee.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/juice3.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/redbull.jpg":
+/*!************************************************!*\
+  !*** ./src/scss/components/images/redbull.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ae6cff18e791835e7d74.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/redbull.jpg?");
+
+/***/ }),
+
+/***/ "./src/scss/components/images/sprite.jpg":
+/*!***********************************************!*\
+  !*** ./src/scss/components/images/sprite.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"42cc5c1f82d30052bd02.jpg\";\n\n//# sourceURL=webpack://burgers/./src/scss/components/images/sprite.jpg?");
 
 /***/ })
 
@@ -3415,7 +3602,7 @@ eval("module.exports = __webpack_require__.p + \"e0e67111164d4d0c83f6.jpg\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("c0b60082e47255219627")
+/******/ 		__webpack_require__.h = () => ("3529f0874c8b33e14eef")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

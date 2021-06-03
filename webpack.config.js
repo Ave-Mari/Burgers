@@ -6,8 +6,7 @@ require('hot-module-replacement')({
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
-
+const isProd = (process.env.NODE_ENV === 'production');
 
 
 module.exports = {
@@ -27,7 +26,12 @@ module.exports = {
           {
 			test: /\.(s*)css$/,
 			use: [				
-				'style-loader', 'css-loader', 'postcss-loader', 'sass-loader'
+				isProd
+            ? MiniCssExtractPlugin.loader
+            : 
+				'style-loader', 'css-loader', 
+				'postcss-loader', 
+				'sass-loader'
 				
 			]
 		},
@@ -42,7 +46,9 @@ module.exports = {
 			new HtmlWebpackPlugin({
 				template: "./index.html"
 			  }),
-              new MiniCssExtractPlugin()
+              new MiniCssExtractPlugin({
+				filename: '[name].css'
+			})
 		],
 
 		watchOptions: {

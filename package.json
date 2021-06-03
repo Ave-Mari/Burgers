@@ -2,10 +2,14 @@
   "name": "burgers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js",  
+  "private": true,
+  "homepage": "https://ave-mari.github.io/Burgers/",
   "scripts": {
     "dev": "webpack serve --open --env development",
-    "build": "webpack --progress --env production"
+    "build": "webpack --progress --env production",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "author": "Mari Vaypan",
   "license": "ISC",
@@ -34,6 +38,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "gh-pages": "^3.2.0",
     "resolve-url-loader": "^4.0.0",
     "server": "^1.0.32"
   }
