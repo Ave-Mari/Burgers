@@ -28,7 +28,10 @@ module.exports = {
 			include: /src/,
 			use: [
 			MiniCssExtractPlugin.loader,
-			'css-loader', 
+			'css-loader?url=false', 
+			{loader: 'resolve-url-loader',
+			options: {
+				sourceMap: true}},
 				'postcss-loader', 
 				'sass-loader'
 				
